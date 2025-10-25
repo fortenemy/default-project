@@ -1,0 +1,148 @@
+# 🚀 Project Initialization Guide - EXAMPLE
+
+**This is an example showing how to fill in start.md for a real project.**  
+**Copy the structure below and adapt it to your project.**
+
+---
+
+## Example: Company Portfolio Website
+
+### PROJECT NAME
+**Acme Design Studio Portfolio Website**
+
+### PROJECT GOAL
+Create a modern, responsive portfolio website for Acme Design Studio that showcases their design work, team members, and contact information. The site should attract potential clients and demonstrate the studio's design capabilities through its own design.
+
+**Target Users:**
+- **Primary:** Potential clients looking to hire a design studio
+- **Secondary:** Job seekers interested in joining the team
+
+### CORE FEATURES
+
+1. **Homepage**
+   - Hero section with studio tagline
+   - Featured projects carousel
+   - Client testimonials
+   - Call-to-action for contact
+
+2. **Portfolio Section**
+   - Project gallery with filtering by category (Branding, Web, Print)
+   - Individual project case study pages with:
+     - Project description
+     - Before/after images
+     - Client information
+     - Technologies/tools used
+
+3. **About Page**
+   - Studio history and values
+   - Team member profiles with photos
+   - Services offered
+   - Design process overview
+
+4. **Contact Page**
+   - Contact form with validation
+   - Email: name, email, project type, budget, message
+   - Office location map
+   - Social media links
+
+5. **Blog (Optional for MVP)**
+   - Design tips and industry insights
+   - Simple CMS integration
+
+### TECHNOLOGY STACK
+
+**Frontend:**
+- React 18 with TypeScript
+- Tailwind CSS for styling
+- Framer Motion for animations
+- React Router for navigation
+
+**Backend:**
+- Node.js + Express (API server)
+- Nodemailer for contact form emails
+
+**Database:**
+- PostgreSQL for content management
+- Prisma ORM
+
+**Hosting:**
+- Frontend: Vercel
+- Backend: Railway
+- Database: Railway PostgreSQL
+
+**Additional Tools:**
+- Figma for design mockups
+- Git + GitHub for version control
+- ESLint + Prettier for code quality
+
+### CONSTRAINTS
+
+**Budget:** $8,000 maximum
+
+**Timeline:** 8 weeks from kickoff to launch
+
+**Performance:**
+- Lighthouse score > 90
+- Page load time < 2 seconds
+- Mobile-first responsive design
+
+**Accessibility:**
+- WCAG 2.1 AA compliance minimum
+- Keyboard navigation support
+- Screen reader friendly
+
+**Browser Support:**
+- Last 2 versions of Chrome, Firefox, Safari, Edge
+- Mobile Safari and Chrome
+
+### SUCCESS CRITERIA
+
+**Technical Success:**
+- All pages load successfully on desktop and mobile
+- Contact form delivers emails reliably (99.9% uptime)
+- No critical console errors
+- Passes Google PageSpeed Insights
+- SEO meta tags implemented correctly
+
+**Business Success:**
+- Portfolio showcases at least 15 completed projects
+- Contact form generates minimum 5 inquiries per week
+- Site achieves 90+ Lighthouse Performance score
+- Social media integrations working
+
+**User Experience:**
+- Users can find project case studies within 2 clicks
+- Mobile navigation is intuitive (< 3% bounce rate from mobile)
+- Contact form completion rate > 40%
+
+---
+
+## Ready to Start?
+
+After filling in your project details above:
+
+1. Save this file as `start.md` (remove `-example` from filename)
+2. In Cursor chat, mention: `Use @start.md to initialize the project`
+3. The AI will guide you through the rest of the workflow
+
+---
+
+## What Happens Next?
+
+The AI will:
+
+1. **Ask clarifying questions** about your project
+2. **Create a PRD** (Product Requirements Document) in `tasks/prd-acme-portfolio.md`
+3. **Generate task lists:**
+   - `tasks/tasks-prd-acme-portfolio.md` (English)
+   - `tasks/tasks-prd-acme-portfolio-PL.md` (Polish)
+4. **Initialize memory.md** with your project information
+5. **Begin task execution** one subtask at a time
+
+You'll review and approve each step, ensuring full control over the development process.
+
+---
+
+**Example Version:** 1.0  
+**Template:** Default Project v1.0
+

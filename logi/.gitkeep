@@ -1,0 +1,7 @@
+# This directory will contain session logs:
+# - YYYY_MM_DD_log_1.md - First session of the day
+# - YYYY_MM_DD_log_2.md - Second session of the day
+# - etc.
+#
+# Logs are created automatically after completing parent tasks.
+
