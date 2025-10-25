@@ -1,11 +1,12 @@
-# 🚀 Project Initialization Guide - EXAMPLE
+# 📋 Example: Well-Defined Project
 
-**This is an example showing how to fill in start.md for a real project.**  
-**Copy the structure below and adapt it to your project.**
+**Purpose:** This example shows the level of detail and clarity needed when describing your project to the AI during initialization.
+
+**How to use this:** When the AI asks about your project during initialization, refer to this example to understand the depth and structure of information that helps create a comprehensive PRD.
 
 ---
 
-## Example: Company Portfolio Website
+## Example Project: Acme Design Studio Portfolio
 
 ### PROJECT NAME
 **Acme Design Studio Portfolio Website**
@@ -117,59 +118,58 @@ Create a modern, responsive portfolio website for Acme Design Studio that showca
 
 ---
 
-## Ready to Start?
+## 💡 How to Use This Example
 
-This is just an example showing a filled-in project description. 
+When AI asks you about your project during initialization, think about providing similar details:
 
-**To actually initialize a project:**
+### ✓ **Clear Project Goal**
+- What problem does it solve?
+- Who are the target users?
+- What's the main value proposition?
 
-1. Don't edit this file - just copy the template
-2. **Start a new chat session** in your IDE
-3. Add to context: `@init.md`
-4. Say: "Initialize this project"
-5. AI will ask you about your project (like the example conversation below)
+### ✓ **Specific Features**
+- List core features with details
+- Break down complex features into sub-components
+- Prioritize what's essential vs. optional
+
+### ✓ **Technology Preferences**
+- Frontend, backend, database choices
+- Hosting and deployment platforms
+- Development tools and libraries
+
+### ✓ **Constraints & Requirements**
+- Budget limitations
+- Timeline expectations
+- Performance requirements
+- Accessibility standards
+- Browser/device support
+
+### ✓ **Success Criteria**
+- How will you measure success?
+- Technical metrics (performance, uptime)
+- Business metrics (conversions, usage)
+- User experience goals
 
 ---
 
-## What Happens Next?
+## 🚀 Ready to Initialize Your Project?
 
-**Example conversation when you add `@init.md` to context:**
+1. **Start a new chat** in your IDE
+2. **Add to context:** `@init.md`
+3. **Say:** "Initialize this project"
+4. **Answer AI's questions** using this example as inspiration for the level of detail
 
-```text
-You: "Initialize this project"
+**The AI will:**
+- Ask clarifying questions about your project
+- Create a comprehensive PRD based on your answers
+- Generate a detailed task list
+- Initialize project memory
+- Guide you through implementation
 
-AI: "I'll help you initialize your project. What would you like to build?"
-You: "A portfolio website for Acme Design Studio"
-
-AI: "What's the main goal?"
-You: "Showcase design work, team members, and attract B2B clients"
-
-AI: "What are the core features?"
-You: [Describe features like in the example above]
-
-AI: "What tech stack?"
-You: "React + TypeScript, Tailwind CSS, Node.js backend, PostgreSQL"
-
-AI: "Any constraints?"
-You: "$8,000 budget, 8 weeks, WCAG 2.1 AA compliance"
-
-AI: "Perfect! Generating PRD..."
-AI: "✅ PRD created at tasks/prd-acme-portfolio.md"
-AI: "Ready for task generation?"
-
-You: "Yes"
-
-AI: "✅ Task list created"
-AI: "✅ memory.md initialized"
-AI: "✅ Project structure verified"
-AI: "🎉 All initialization complete!"
-AI: "Ready to start on Task 1.1?"
-```
-
-**The AI handles everything** - you just answer questions and approve steps!
+**Remember:** The more specific and detailed your answers, the better the PRD and task breakdown will be!
 
 ---
 
 **Example Version:** 1.0  
-**Template:** Default Project v1.0
-
+**Template:** Default Project v1.0  
+**Last Updated:** 2025-10-24

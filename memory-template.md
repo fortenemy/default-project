@@ -569,3 +569,7 @@ cd [project-path]
 
 **End of Memory Document**  
 **Next Task:** [Task number and title]
+
+---
+
+**Designed by** ***fortenemy***

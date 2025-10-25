@@ -1,8 +1,10 @@
 # 📘 Default Project Template - Developer Guide
 
 **Version:**  1.0  
-**Last Updated:**  2025-10-24  
-**Author:**  *fortenemy*
+**Last Updated:**  2025-10-24
+
+---
+**Designed by** ***fortenemy***
 
 ---
 
@@ -25,7 +27,7 @@ This template provides a **battle-tested, structured approach** to AI-assisted d
 | File | Purpose | When Created |
 |------|---------|--------------|
 | `init.md` | Project initialization | Template file |
-| `start.md-example` | Example filled template | Reference only |
+| `project-example.md` | Example project reference | Reference only |
 | `memory-template.md` | Memory structure template | Becomes `memory.md` |
 | `README.md` | Template documentation | Reference |
 | `TEMPLATE_GUIDE.md` | This file | Developer reference |
@@ -345,7 +347,7 @@ Planned improvements for future versions:
 ### Learning Resources
 
 1. Read `init.md` to understand the initialization process
-2. Review `start.md-example` for a complete example conversation
+2. Review `project-example.md` to see how to describe a project with proper detail
 3. Study `ai-dev-tasks/README.md` for workflow overview
 4. Review `memory-template.md` for memory structure
 5. Check original project's memory.md for real-world usage

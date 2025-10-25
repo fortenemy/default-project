@@ -408,4 +408,6 @@ This AI-driven **default-project**'s workflow was inspired by [**AI Dev Tasks**]
 
 **Template Version:** 1.0  
 **Last Updated:** 2025-10-24
-**Author:** *fortenemy*
+
+---
+**Designed by** ***fortenemy***
