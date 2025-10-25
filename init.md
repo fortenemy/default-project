@@ -270,7 +270,7 @@ The template is designed to be flexible while maintaining structure.
 
 **GitHub Repository:** [https://github.com/fortenemy/default-project](https://github.com/fortenemy/default-project)
 
-This template's methodology was developed and proven on real-world projects, including a Bitcoin Trading Bot MVP that served as the foundation for this structured approach.
+This template's methodology was developed and proven on real-world projects, including a *bitcoin-trading-bot* project that served as the foundation for this structured approach.
 
 ---
 

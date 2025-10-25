@@ -306,7 +306,7 @@ You can create variants for specific tech stacks:
 
 ## 📊 Template Metrics
 
-Based on the original Bitcoin Trading Bot project:
+Based on the original *bitcoin-trading-bot* project:
 
 | Metric | Value |
 |--------|-------|
@@ -352,7 +352,7 @@ Planned improvements for future versions:
 
 ## 🙏 Credits
 
-This template's workflow methodology is inspired by the excellent [**AI Dev Tasks**](https://github.com/snarktank/ai-dev-tasks) repository by [@snarktank](https://github.com/snarktank), combined with an extended memory system developed for the Bitcoin Trading Bot MVP project.
+This template's workflow methodology is inspired by the excellent [**AI Dev Tasks**](https://github.com/snarktank/ai-dev-tasks) repository by [@snarktank](https://github.com/snarktank), combined with an extended memory system developed for that nasty *bitcoin-trading-bot* project.
 
 **Shout out to:** <https://github.com/snarktank/ai-dev-tasks>
 
@@ -374,13 +374,13 @@ Want to improve this template?
 ### v1.0 (2025-10-24)
 
 - Initial template release
-- Based on Bitcoin Trading Bot MVP methodology
+- Based on that wicked *bitcoin-trading-bot* project
 - Includes all core files and workflow documentation
 
 ---
 
 **Template Status:** Production Ready ✅  
-**Tested On:** some nasty *bitcoin-trading-bot* project
+**Tested On:** yep, *bitcoin-trading-bot* project
 **Success Rate:** 100% task completion with context preservation
 
 ---

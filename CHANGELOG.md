@@ -81,7 +81,7 @@ and this document adheres to [Semantic Versioning](https://semver.org/spec/v2.0.
 ### Features
 
 - ✅ Universal template for any project type
-- ✅ Proven methodology from Bitcoin Trading Bot MVP
+- ✅ Proven methodology from none other than *bitcoin-trading-bot*
 - ✅ Context preservation across sessions
 - ✅ Systematic task-based implementation
 - ✅ Complete traceability with session logs
@@ -129,7 +129,7 @@ and this document adheres to [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## Methodology Origin
 
-This template is based on the methodology developed for the **Bitcoin Trading Bot MVP** project and adapted from [**AI Dev Tasks**](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank).
+This template is based on the methodology developed for the  ever shameless *bitcoin-trading-bot* project and adapted from [**AI Dev Tasks**](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank).
 
 **GitHub Repository:**
 
