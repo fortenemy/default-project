@@ -136,4 +136,23 @@ Please feel free to:
 
 ---
 
+## 📄 License & Attribution
+
+These workflow files are adapted from [**AI Dev Tasks**](<https://github.com/snarktank/ai-dev-tasks>) by [@snarktank](<https://github.com/snarktank>).
+
+**Original Repository:** <https://github.com/snarktank/ai-dev-tasks>  
+**License:** Apache License 2.0  
+**Copyright:** Original authors and contributors
+
+Modifications in this template:
+
+- Adapted for universal project template use
+- Extended with memory system integration
+- Added session logging workflow
+- Modified for multi-language support
+
+All files in this directory maintain compatibility with the Apache 2.0 License. See the main `LICENSE.md` file in the repository root for full license text.
+
+---
+
 Happy AI-assisted developing!

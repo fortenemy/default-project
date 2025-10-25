@@ -54,3 +54,8 @@ Assume the primary reader of the PRD is a **junior developer**. Therefore, requi
 1. Do NOT start implementing the PRD
 2. Make sure to ask the user clarifying questions
 3. Take the user's answers to the clarifying questions and improve the PRD
+
+---
+
+**Source:** Adapted from [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank)  
+**License:** Apache 2.0 | **Modified:** Extended for universal project template

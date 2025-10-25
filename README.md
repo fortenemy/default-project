@@ -352,7 +352,7 @@ This template is flexible. Customize:
 
 **GitHub Repository:** [https://github.com/fortenemy/default-project](https://github.com/fortenemy/default-project)
 
-This template's methodology was developed and proven on real-world projects. For examples of the workflow in action, see the original Bitcoin Trading Bot MVP project that inspired this template.
+This template's methodology was developed and proven on real-world projects.
 
 ---
 
@@ -413,13 +413,26 @@ Improve this template? Great!
 
 ## 📄 License
 
-Free to use and modify for any project.
+This project is licensed under the **Apache License 2.0** - see the [LICENSE.md](LICENSE.md) file for details.
 
----
+### What This Means
 
-## 🙏 Credits
+You are free to:
+- ✅ Use this template for commercial or personal projects
+- ✅ Modify and adapt it to your needs
+- ✅ Distribute and share it
+- ✅ Create derivative works
 
-This AI-driven **default-project**'s workflow was inspired by [**AI Dev Tasks**](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank) - a proven system for managing AI development agents through structured PRDs, task generation, and systematic task processing. Shout out to Mr.Ryan Carson!
+**Requirements:**
+- Include a copy of the Apache 2.0 license
+- State significant changes made to the original files
+- Preserve copyright and attribution notices
+
+### Attribution
+
+The AI workflow methodology (`ai-dev-tasks/` directory) is adapted from [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank), also licensed under Apache 2.0.
+
+***~ credits to @snarktank !***
 
 **Methodology designed for:**
 

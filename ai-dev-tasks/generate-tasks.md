@@ -57,3 +57,8 @@ The process explicitly requires a pause after generating parent tasks to get use
 ## Target Audience
 
 Assume the primary reader of the task list is a **junior developer** who will implement the feature.
+
+---
+
+**Source:** Adapted from [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank)  
+**License:** Apache 2.0 | **Modified:** Extended for universal project template with memory system integration

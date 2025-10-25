@@ -66,3 +66,7 @@ When working with task lists, the AI must:
    - Update Last Updated date
    - Maintain chronological order
 
+---
+
+**Source:** Adapted from [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank)  
+**License:** Apache 2.0 | **Modified:** Extended with session logging and memory maintenance protocols
