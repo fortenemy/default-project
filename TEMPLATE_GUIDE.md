@@ -338,11 +338,10 @@ Planned improvements for future versions:
 
 ## 📚 Additional Resources
 
-### Original Methodology
+### Repository
 
-- **Source Project:** `D:\projekty AI\bitkojnbot\`
-- **Source Memory:** `D:\projekty AI\memory.md`
-- **Source Logs:** `D:\projekty AI\logi\`
+- **GitHub:** [https://github.com/fortenemy/default-project](https://github.com/fortenemy/default-project)
+- **Template URL:** `https://github.com/fortenemy/default-project`
 
 ### Learning Resources
 

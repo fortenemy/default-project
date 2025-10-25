@@ -23,11 +23,38 @@ This is a **universal project template** for AI-driven, structured development. 
 
 ### Step 1: Copy This Template
 
+Choose one of the following methods to clone the repository:
+
+#### HTTPS
+
 ```bash
-# Create a new project from this template
-cp -r "D:\projekty AI\Default Project" "D:\projekty AI\YourProjectName"
-cd "D:\projekty AI\YourProjectName"
+# Clone the repository
+git clone https://github.com/fortenemy/default-project.git YourProjectName
+cd YourProjectName
 ```
+
+#### SSH
+
+```bash
+# Clone the repository using SSH
+git clone git@github.com:fortenemy/default-project.git YourProjectName
+cd YourProjectName
+```
+
+#### GitHub CLI
+
+```bash
+# Clone the repository using GitHub CLI
+gh repo clone fortenemy/default-project YourProjectName
+cd YourProjectName
+```
+
+#### Use as GitHub Template
+
+1. Visit [https://github.com/fortenemy/default-project](https://github.com/fortenemy/default-project)
+2. Click the green "Use this template" button
+3. Create a new repository from the template
+4. Clone your new repository locally
 
 ### Step 2: Initialize Project with AI
 
@@ -323,11 +350,9 @@ This template is flexible. Customize:
 
 ## 📖 Documentation
 
-For the complete methodology, see the original project:
+**GitHub Repository:** [https://github.com/fortenemy/default-project](https://github.com/fortenemy/default-project)
 
-- **Project:** `D:\projekty AI\bitkojnbot\`
-- **Memory:** `D:\projekty AI\memory.md`
-- **Logs:** `D:\projekty AI\logi\`
+This template's methodology was developed and proven on real-world projects. For examples of the workflow in action, see the original Bitcoin Trading Bot MVP project that inspired this template.
 
 ---
 
