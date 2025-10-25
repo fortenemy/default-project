@@ -165,6 +165,12 @@ default-project/
 
 ## 🔄 Workflow Overview
 
+![Project Initialization Example](chat_init_example.png)
+
+##### **example of AI-guided project initialization - the AI reads init.md, checks workspace status, and begins asking about your project.*
+
+---
+
 ### 1. Initialize Project
 
 - Copy the template to your new project directory
