@@ -1,7 +1,6 @@
-# This directory will contain:
+# This directory may contain:
 # - prd-[project-name].md - Product Requirements Document
-# - tasks-prd-[project-name].md - English task list (source of truth)
-# - tasks-prd-[project-name]-PL.md - Polish task list (reference)
+# - tasks-prd-[project-name].md - Task list with implementation steps
 #
 # These files will be generated when you initialize a new project.
 

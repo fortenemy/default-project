@@ -286,8 +286,7 @@ App
 
 ### Task Management
 
-- **Task List (EN):** `tasks/tasks-prd-[project-name].md` (source of truth)
-- **Task List (PL):** `tasks/tasks-prd-[project-name]-PL.md` (reference only)
+- **Task List:** `tasks/tasks-prd-[project-name].md` (implementation roadmap)
 - **Process Guidelines:** `ai-dev-tasks/process-task-list.md`
 
 ### Workflow Protocol
@@ -559,8 +558,7 @@ cd [project-path]
 
 ### Check Task Progress
 
-- English: `tasks/tasks-prd-[project-name].md`
-- Polish: `tasks/tasks-prd-[project-name]-PL.md`
+- Task list: `tasks/tasks-prd-[project-name].md`
 
 ### View Session Logs
 

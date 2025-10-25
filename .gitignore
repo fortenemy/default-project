@@ -10,7 +10,6 @@ tasks/*.md
 logi/*.md
 !logi/.gitkeep
 CHANGELOG.md
-TEMPLATE_GUIDE.md
 
 # =============================================================================
 # Environment and Secrets

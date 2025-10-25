@@ -53,9 +53,7 @@ When working with task lists, the AI must:
 4. Keep "Relevant Files" accurate and up to date.
 5. Before starting work, check which sub‑task is next.
 6. After implementing a sub‑task, update the file and then pause for user approval.
-7. **Parallel task list updates:** When working with bilingual task lists (e.g., `tasks-prd-[project].md` and `tasks-prd-[project]-PL.md`), **always update both files simultaneously** in the same operation. Both files must maintain identical task completion status (`[ ]` or `[x]`) at all times.
-   - **Source of truth:** The English version is the primary source of truth for task implementation.
-   - **Polish version purpose:** The Polish version serves only as a reference aid for the user to understand what is being implemented at the moment. It should be kept in sync for user convenience, but all implementation decisions are based on the English version.
+7. **Task list updates:** After completing each subtask, **immediately update the task list** (`tasks-prd-[project].md`) marking the completed item with `[x]`. This provides clear visual progress tracking.
 8. **Session logging:** After completing a parent task or at the end of a significant work session:
    - Create or update a session log in `logi/`
    - Use the naming convention `YYYY_MM_DD_log_<number>.md`

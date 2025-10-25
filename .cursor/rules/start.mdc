@@ -7,25 +7,7 @@ alwaysApply: true
 At the beginning of each interaction with the user, start your work by reading this file and perform the following:
 
 1. Read the latest memory entry from @memory.md and the latest log (by most recent date) from `logi/`
-2. Check @start.md for project initialization status
-3. Confirm readiness for further interaction with the user
-
-## For New Projects
-
-If `memory.md` doesn't exist yet:
-
-1. Read @start.md for project description
-2. If project is described, offer to begin the AI Dev Tasks workflow:
-   - Create PRD using @ai-dev-tasks/create-prd.md
-   - Generate tasks using @ai-dev-tasks/generate-tasks.md
-   - Initialize memory.md from @memory-template.md
-   - Begin task execution using @ai-dev-tasks/process-task-list.md
-
-## For Existing Projects
-
-If `memory.md` exists:
-
-1. **Always start by reading Table of Contents** in memory.md
-2. Check Task History for current progress
-3. Identify next task to work on
-4. Follow workflow protocol from memory.md
+2. Check @init.md for project initialization status
+3. If memory.md doesn't exist and user added @init.md to context, follow the initialization protocol from @init.md
+4. If memory.md exists, read Table of Contents, check Task History, and identify next task
+5. Confirm readiness for further interaction with the user

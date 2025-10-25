@@ -1,7 +1,9 @@
 # 🚀 Default Project Template
 
-**Version:** 1.0  
-**Created:** 2025-10-24  
+**Version:**  1.0  
+**Created:**  2025-10-24
+
+> 💡 **Quick Start:** Copy this repo template → Start new chat → Add `@init.md` to context → AI asks about your project → AI creates everything!
 
 ---
 
@@ -12,7 +14,6 @@ This is a **universal project template** for AI-driven, structured development. 
 - ✅ **PRD-driven development** (Product Requirements Document)
 - ✅ **Task-based implementation** (Parent tasks → Subtasks → Execution)
 - ✅ **Extended memory system** (Context preservation across sessions)
-- ✅ **Bilingual documentation** (English + Polish task lists)
 - ✅ **Session logging** (Full traceability of all development decisions)
 - ✅ **Self-documenting** (Memory updates automatically after each task)
 
@@ -28,39 +29,86 @@ cp -r "D:\projekty AI\Default Project" "D:\projekty AI\YourProjectName"
 cd "D:\projekty AI\YourProjectName"
 ```
 
-### Step 2: Describe Your Project
+### Step 2: Initialize Project with AI
 
-Open `start.md` and fill in your project details:
+1. Open a new chat in your IDE (Cursor/Windsurf/Claude Code, etc.)
+2. Add to context: `@init.md`
+3. Say: "Initialize this project"
 
-- Project name
-- Goal
-- Core features
-- Technology stack
-- Constraints
-- Success criteria
+**The AI agent will automatically guide you through project initialization:**
 
-### Step 3: Begin AI Development Workflow
+The AI will ask about your project and **automatically create everything you need**:
 
-In your IDE's chat:
+1. **Create PRD** - AI will use `@create-prd.md` to:
+   - Ask you clarifying questions about your project
+   - Generate a complete PRD based on your answers
+   - Save it as `tasks/prd-[project-name].md`
 
+2. **Generate Tasks** - AI will automatically use `@generate-tasks.md` to:
+   - Break down the PRD into parent tasks and subtasks
+   - Create detailed task lists
+   - Save them in the `tasks/` directory
+
+3. **Initialize Memory** - AI will create `memory.md` from the template with project-specific information
+
+4. **Begin Implementation** - AI will guide you through executing tasks using `@process-task-list.md`
+
+You just need to respond to questions and approve each step - the AI handles the workflow!
+
+---
+
+## 🎬 What to Expect
+
+After you add `@init.md` to context and say "initialize this project", here's what happens:
+
+### Step 1: PRD Creation
+
+Example:
+
+```text
+AI: "I'll help you initialize your project. What would you like to build?"
+You: "An e-commerce website for handmade crafts"
+AI: "Great! Let me ask some clarifying questions..."
+You: [Answer questions about features, tech stack, etc.]
+AI: "Perfect! I'm generating the PRD now..."
+AI: "PRD created and saved at tasks/prd-ecommerce-website.md. Ready for task generation?"
 ```
-Use @start.md to initialize the project
+
+### Step 2: Task Generation
+
+```text
+You: "Yes, continue"
+AI: "Using @generate-tasks.md to analyze PRD and create task breakdown..."
+AI: "Task lists created. Now initializing project memory..."
 ```
 
-The AI will guide you through:
+### Step 3: Memory Initialization
 
-1. Creating a PRD
-2. Generating task lists
-3. Initializing memory
-4. Implementing tasks systematically
+```text
+AI: "Memory (memory.md) initialized with your project details."
+AI: "Project structure created. All initialization complete!"
+AI: "Ready to start on Task 1.1?"
+```
+
+### Step 4: Implementation
+
+```text
+You: "Yes, let's start"
+AI: [Works on Task 1.1]
+AI: "Task 1.1 complete. Please review. Approve to continue?"
+You: "yes"
+AI: [Moves to Task 1.2 automatically]
+```
+
+**That's it!** The AI guides you through everything step by step.
 
 ---
 
 ## 📁 Template Structure
 
-```
+```text
 Default Project/
-├── start.md                    # Project initialization guide
+├── init.md                     # Project initialization guide
 ├── memory-template.md          # Extended memory template
 ├── README.md                   # This file
 │
@@ -84,42 +132,51 @@ Default Project/
 
 ### 1. Initialize Project
 
-- Fill in `start.md` with project description
-- Mention `@start.md` to AI
+- Copy the template to your new project directory
+- **Start new chat session** and add `@init.md` to context
+- Tell AI: "Initialize this project"
+- Answer AI's questions about your project
 
-### 2. Create PRD
+**From this point, the AI agent automatically guides you through all remaining steps:**
 
-- AI asks clarifying questions
-- Generates `tasks/prd-[project-name].md`
+### 2. Create PRD (AI-Initiated)
 
-### 3. Generate Tasks
+- **AI automatically uses `@create-prd.md`** to guide the process
+- AI asks clarifying questions about your project
+- You provide answers
+- AI generates and saves `tasks/prd-[project-name].md`
 
+### 3. Generate Tasks (AI-Initiated)
+
+- **AI automatically uses `@generate-tasks.md`** after PRD is approved
 - AI creates task list with parent/subtasks
-- Saves as `tasks/tasks-prd-[project-name].md` (EN)
-- Saves as `tasks/tasks-prd-[project-name]-PL.md` (PL)
+- Saves as `tasks/tasks-prd-[project-name].md`
 
-### 4. Initialize Memory
+### 4. Initialize Memory (AI-Initiated)
 
-- AI creates `memory.md` from template
-- Fills in project-specific information
+- **AI automatically creates `memory.md`** from template
+- Fills in project-specific information from PRD and tasks
 
-### 5. Execute Tasks
+### 5. Execute Tasks (AI-Guided)
 
+- **AI uses `@process-task-list.md`** to guide implementation
 - AI works on tasks one by one
-- Updates both task lists simultaneously
-- Waits for approval after each subtask
+- Updates task list as work progresses
+- Waits for your approval after each subtask
 - Updates memory after each parent task
 - Creates session logs in `logi/`
+
+> 💡 **You don't need to manually reference the workflow files** - the AI agent knows to use them automatically based on `@init.md` initialization!
 
 ---
 
 ## 📚 Key Files Explained
 
-### `start.md`
+### `init.md`
 
 **Purpose:** Main project initialization file  
 **When to use:** At the very beginning of a new project  
-**Contains:** Project description, goals, features, tech stack
+**Contains:** Instructions for AI to initialize the project through conversation
 
 ### `memory-template.md`
 
@@ -141,8 +198,7 @@ Default Project/
 Will contain:
 
 - `prd-[project-name].md` - Product Requirements Document
-- `tasks-prd-[project-name].md` - English task list (source of truth)
-- `tasks-prd-[project-name]-PL.md` - Polish task list (reference)
+- `tasks-prd-[project-name].md` - Task list with all implementation steps
 
 ### `logi/` (generated)
 
@@ -177,10 +233,6 @@ Context preserved across sessions in `memory.md` with:
 - Key decisions and rationale
 - Quick reference commands
 
-### 🌐 Bilingual Support
-
-Task lists in both English (source of truth) and Polish (reference)
-
 ### 📊 Session Logging
 
 Every development session logged in `logi/` with:
@@ -205,40 +257,35 @@ Memory and task lists update automatically as work progresses
 ### Example: E-commerce Website
 
 1. **Copy template** to `EcommerceWebsite/`
-2. **Edit start.md:**
+2. **Start new chat with `@init.md`:**
 
-   ```markdown
-   PROJECT NAME: E-commerce Website
+   ```text
+   You: "Initialize this project - I want to build an e-commerce website"
    
-   PROJECT GOAL: 
-   Create an online store for selling handmade crafts with 
-   product catalog, shopping cart, and checkout functionality.
+   AI: "What would you like to build?"
+   You: "An e-commerce website for handmade crafts with catalog, cart, and checkout"
    
-   CORE FEATURES:
-   1. Product catalog with categories and search
-   2. Shopping cart functionality
-   3. Checkout with payment integration
-   4. User accounts and order history
-   5. Admin panel for product management
+   AI: "Great! Let me ask about the technical details..."
+   AI: "What tech stack do you prefer?"
+   You: "React + TypeScript frontend, Node.js + Express backend, PostgreSQL database"
    
-   TECHNOLOGY STACK:
-   - Frontend: React + TypeScript
-   - Backend: Node.js + Express
-   - Database: PostgreSQL
-   - Payment: Stripe
+   AI: "Any specific requirements or constraints?"
+   You: "Need Stripe payment integration, user accounts, and admin panel"
    ```
 
-3. **In your IDE:** `Use @start.md to initialize`
-4. **AI creates:**
-   - `tasks/prd-ecommerce-website.md`
-   - `tasks/tasks-prd-ecommerce-website.md`
-   - `tasks/tasks-prd-ecommerce-website-PL.md`
-   - `memory.md`
+3. **AI automatically takes over and:**
+   - Asks clarifying questions about your e-commerce project
+   - You answer the questions
+   - AI generates `tasks/prd-ecommerce-website.md`
+   - AI automatically creates `tasks/tasks-prd-ecommerce-website.md`
+   - AI initializes `memory.md` with your project info
+   - AI asks: "Ready to start on task 1.1?"
 
-5. **Begin implementation:**
-   - `Please start on task 1.1 and use @process-task-list.md`
-   - Review and approve each subtask
-   - AI updates everything automatically
+4. **You just:**
+   - Approve to continue
+   - Review each completed subtask
+   - Say "yes" to move to the next
+   - AI handles all the rest (updates, logs, memory)
 
 ---
 
@@ -246,7 +293,8 @@ Memory and task lists update automatically as work progresses
 
 ### ✅ Do
 
-- Fill in `start.md` completely before beginning
+- **Always add `@init.md` to context at the start of new chat**
+- Answer AI's questions thoroughly during initialization
 - Review each subtask before approving
 - Check `memory.md` TOC when resuming work
 - Read latest session log to understand context
@@ -287,11 +335,15 @@ For the complete methodology, see the original project:
 
 ### AI doesn't start workflow
 
-**Solution:** Make sure you mention `@start.md` explicitly
+**Solution:**
 
-### Task lists out of sync
+- Make sure you **added `@init.md` to the chat context** (not just mentioned it in text)
+- Start a fresh chat session
+- Say clearly: "Initialize this project" or "Help me initialize this project"
 
-**Solution:** AI should update both simultaneously. If not, remind: "Update both EN and PL task lists"
+### Task list not updating
+
+**Solution:** AI should mark tasks as complete after each subtask. If not, remind: "Update task list to mark completed items"
 
 ### Memory not updating
 
@@ -307,10 +359,12 @@ For the complete methodology, see the original project:
 
 ### First Time Using This?
 
-1. Read `start.md` completely
-2. Review `ai-dev-tasks/README.md`
-3. Look at `memory-template.md` structure
-4. Start with a simple project to learn the workflow
+1. Read `init.md` to understand the initialization process
+2. Copy the template to your project directory
+3. **Start new chat and add `@init.md` to context**
+4. Review `ai-dev-tasks/README.md` for workflow details
+5. Look at `memory-template.md` structure
+6. Start with a simple project to learn the workflow
 
 ### Understanding the Workflow
 
@@ -353,5 +407,5 @@ This AI-driven **default-project**'s workflow was inspired by [**AI Dev Tasks**]
 ---
 
 **Template Version:** 1.0  
-**Last Updated:** 2025-10-24  
-**Status:** Ready to use 🚀
+**Last Updated:** 2025-10-24
+**Author:** *fortenemy*

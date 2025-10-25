@@ -119,27 +119,54 @@ Create a modern, responsive portfolio website for Acme Design Studio that showca
 
 ## Ready to Start?
 
-After filling in your project details above:
+This is just an example showing a filled-in project description. 
 
-1. Save this file as `start.md` (remove `-example` from filename)
-2. In Cursor chat, mention: `Use @start.md to initialize the project`
-3. The AI will guide you through the rest of the workflow
+**To actually initialize a project:**
+
+1. Don't edit this file - just copy the template
+2. **Start a new chat session** in your IDE
+3. Add to context: `@init.md`
+4. Say: "Initialize this project"
+5. AI will ask you about your project (like the example conversation below)
 
 ---
 
 ## What Happens Next?
 
-The AI will:
+**Example conversation when you add `@init.md` to context:**
 
-1. **Ask clarifying questions** about your project
-2. **Create a PRD** (Product Requirements Document) in `tasks/prd-acme-portfolio.md`
-3. **Generate task lists:**
-   - `tasks/tasks-prd-acme-portfolio.md` (English)
-   - `tasks/tasks-prd-acme-portfolio-PL.md` (Polish)
-4. **Initialize memory.md** with your project information
-5. **Begin task execution** one subtask at a time
+```text
+You: "Initialize this project"
 
-You'll review and approve each step, ensuring full control over the development process.
+AI: "I'll help you initialize your project. What would you like to build?"
+You: "A portfolio website for Acme Design Studio"
+
+AI: "What's the main goal?"
+You: "Showcase design work, team members, and attract B2B clients"
+
+AI: "What are the core features?"
+You: [Describe features like in the example above]
+
+AI: "What tech stack?"
+You: "React + TypeScript, Tailwind CSS, Node.js backend, PostgreSQL"
+
+AI: "Any constraints?"
+You: "$8,000 budget, 8 weeks, WCAG 2.1 AA compliance"
+
+AI: "Perfect! Generating PRD..."
+AI: "✅ PRD created at tasks/prd-acme-portfolio.md"
+AI: "Ready for task generation?"
+
+You: "Yes"
+
+AI: "✅ Task list created"
+AI: "✅ memory.md initialized"
+AI: "✅ Project structure verified"
+AI: "🎉 All initialization complete!"
+AI: "Ready to start on Task 1.1?"
+```
+
+**The AI handles everything** - you just answer questions and approve steps!
 
 ---
 

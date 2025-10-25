@@ -57,4 +57,3 @@ The process explicitly requires a pause after generating parent tasks to get use
 ## Target Audience
 
 Assume the primary reader of the task list is a **junior developer** who will implement the feature.
-
