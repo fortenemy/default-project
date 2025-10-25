@@ -442,7 +442,7 @@ The AI workflow methodology (`ai-dev-tasks/` directory) is adapted from [AI Dev 
 - Junior developer friendly
 - Production-ready results
 
-*~ credits to @snarktank !*
+*~credits to @snarktank !*
 
 ---
 
