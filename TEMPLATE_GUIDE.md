@@ -1,7 +1,8 @@
 # 📘 Default Project Template - Developer Guide
 
-**Version:**  1.0
-**Created:**  2025-10-24
+**Version:**  1.0.1
+**Created:**  2025-10-24  
+**Last Updated:**  2025-10-25
 
 ---
 
@@ -266,15 +267,6 @@ You can create variants for specific tech stacks:
 - Check `.cursor/rules/start.mdc` is active
 - Remind AI: "Follow the workflow protocol from memory.md"
 
-### Issue: Task lists out of sync
-
-**Symptoms:** EN and PL lists have different checkmarks  
-**Solution:**
-
-- Remind AI: "Update both EN and PL task lists simultaneously"
-- Check process-task-list.md point #7
-- Manually sync if needed, then continue
-
 ### Issue: Memory.md not updating
 
 **Symptoms:** Task History missing new tasks  
@@ -354,7 +346,7 @@ Planned improvements for future versions:
 
 This template's workflow methodology is inspired by the excellent [**AI Dev Tasks**](https://github.com/snarktank/ai-dev-tasks) repository by [@snarktank](https://github.com/snarktank), combined with an extended memory system developed for that nasty *bitcoin-trading-bot* project.
 
-**Shout out to:** <https://github.com/snarktank/ai-dev-tasks>
+**Shout-out to:** <https://github.com/snarktank/ai-dev-tasks>
 
 ---
 
@@ -371,7 +363,13 @@ Want to improve this template?
 
 ## 📝 Version History
 
-### v1.0 (2025-10-24)
+### v1.0.1 (2025-10-25)
+
+- Major Updates
+- Documentation Enhancements
+- License Compliance
+
+### v1.0.0 (2025-10-24)
 
 - Initial template release
 - Based on that wicked *bitcoin-trading-bot* project
@@ -381,7 +379,7 @@ Want to improve this template?
 
 **Template Status:** Production Ready ✅
 
-**Tested On:** yep, *bitcoin-trading-bot* project
+**Tested On:** Real-world projects (*bitcoin-trading-bot* project included)
 
 **Success Rate:** 100% task completion with context preservation
 
