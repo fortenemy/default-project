@@ -134,19 +134,27 @@ AI: [Moves to Task 1.2 automatically]
 ## 📁 Template Structure
 
 ```text
-Default Project/
+default-project/
 ├── init.md                     # Project initialization guide
-├── memory-template.md          # Extended memory template
-├── README.md                   # This file
+├── memory-template.md          # Extended memory template (77 sections)
+├── project-example.md          # Well-defined project reference example
+├── README.md                   # This file - Complete documentation
+├── TEMPLATE_GUIDE.md           # Developer guide and best practices
+├── CHANGELOG.md                # Version history and updates
+├── LICENSE.md                  # Apache License 2.0 full text
+├── .gitignore                  # Git ignore rules
 │
-├── ai-dev-tasks/              # AI workflow guidelines
+├── ai-dev-tasks/              # AI workflow guidelines (Apache 2.0)
 │   ├── create-prd.md         # How to create PRD
 │   ├── generate-tasks.md     # How to generate tasks
 │   ├── process-task-list.md  # How to execute tasks
 │   └── README.md             # Workflow documentation
 │
-├── tasks/                     # (empty) PRD and task lists go here
-├── logi/                      # (empty) Session logs go here
+├── tasks/                     # PRD and task lists go here
+│   └── .gitkeep              # Keep empty directory in git
+│
+├── logi/                      # Session logs go here
+│   └── .gitkeep              # Keep empty directory in git
 │
 └── .cursor/
     └── rules/
