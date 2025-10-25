@@ -434,8 +434,6 @@ You are free to:
 
 The AI workflow methodology (`ai-dev-tasks/` directory) is adapted from [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank), also licensed under Apache 2.0.
 
-*~credits to @snarktank !*
-
 **Methodology designed for:**
 
 - Structured development
@@ -443,6 +441,8 @@ The AI workflow methodology (`ai-dev-tasks/` directory) is adapted from [AI Dev 
 - AI collaboration
 - Junior developer friendly
 - Production-ready results
+
+*~ credits to @snarktank !*
 
 ---
 
