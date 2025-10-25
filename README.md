@@ -219,6 +219,27 @@ default-project/
 **Becomes:** `memory.md` (project-specific extended memory)  
 **Contains:** Table of Contents, Task History, Configuration, Key Decisions
 
+### `project-example.md`
+
+**Purpose:** Reference example of a well-defined project  
+**When to use:** Before initialization to understand the level of detail needed  
+**Contains:** Complete project description (Acme Design Studio Portfolio) with goals, features, tech stack, constraints, and success criteria  
+**Key feature:** Shows you exactly how detailed your project description should be for best PRD results
+
+### `TEMPLATE_GUIDE.md`
+
+**Purpose:** Comprehensive developer guide and methodology documentation  
+**When to use:** When you want to understand the template's inner workings or customize it  
+**Contains:** Complete workflow diagram, file generation timeline, memory.md structure, customization guide, best practices, troubleshooting, and template metrics  
+**Key feature:** Deep dive into how everything works together - essential for template maintainers
+
+### `.cursor/rules/start.mdc`
+
+**Purpose:** Always-active AI initialization rule  
+**When applied:** Automatically at the beginning of each interaction  
+**Contains:** Protocol for AI to read memory, check initialization status, and prepare context  
+**Key feature:** Ensures AI always starts with proper project context (memory.md + latest logs)
+
 ### `ai-dev-tasks/`
 
 **Purpose:** Contains workflow guidelines for AI  
