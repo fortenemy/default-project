@@ -418,12 +418,14 @@ This project is licensed under the **Apache License 2.0** - see the [LICENSE.md]
 ### What This Means
 
 You are free to:
+
 - ✅ Use this template for commercial or personal projects
 - ✅ Modify and adapt it to your needs
 - ✅ Distribute and share it
 - ✅ Create derivative works
 
 **Requirements:**
+
 - Include a copy of the Apache 2.0 license
 - State significant changes made to the original files
 - Preserve copyright and attribution notices
@@ -432,7 +434,7 @@ You are free to:
 
 The AI workflow methodology (`ai-dev-tasks/` directory) is adapted from [AI Dev Tasks](https://github.com/snarktank/ai-dev-tasks) by [@snarktank](https://github.com/snarktank), also licensed under Apache 2.0.
 
-***~ credits to @snarktank !***
+*~credits to @snarktank !*
 
 **Methodology designed for:**
 
