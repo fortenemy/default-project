@@ -214,4 +214,4 @@ This project is licensed under the **Apache License 2.0**.
 ***>this is the end of this document<***
 
 ---
-**+++** **designed by** ***FORTENEMY*** **+++**
+**+++** **designed** by ***FORTENEMY*** **+++**

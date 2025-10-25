@@ -396,4 +396,4 @@ Want to improve this template?
 ***>this is the end of this document<***
 
 ---
-**+++** **designed by** ***FORTENEMY*** **+++**
+**+++** **designed** by ***FORTENEMY*** **+++**
