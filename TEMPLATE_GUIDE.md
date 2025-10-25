@@ -1,7 +1,9 @@
 # 📘 Default Project Template - Developer Guide
 
 **Version:**  1.0.1
+
 **Created:**  2025-10-24  
+
 **Last Updated:**  2025-10-25
 
 ---
