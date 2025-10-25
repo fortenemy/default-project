@@ -569,4 +569,8 @@ cd [project-path]
 ***>this is the end of this document<***
 
 ---
+**Created:** 2025-10-24
+**Last Updated:** 2025-10-25
+
+---
 **+++** **designed by** ***FORTENEMY*** **+++**

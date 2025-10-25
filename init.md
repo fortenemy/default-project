@@ -297,12 +297,10 @@ The AI will ask about your project and automatically create everything you need!
 **Note:** This is a template file - no need to edit it. The AI will gather all information through conversation.
 
 ---
-
-**Template Version:**  1.0  
-**Last Updated:**  2025-10-25  
+***>this is the end of this document<***
 
 ---
-***>this is the end of this document<***
+**Last Updated:**  2025-10-25
 
 ---
 **+++** **designed by** ***FORTENEMY*** **+++**

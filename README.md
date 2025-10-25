@@ -1,7 +1,7 @@
 # 🚀 Default Project Template
 
-**Version:**  1.0  
-**Created:**  2025-10-25
+**Version:** 1.0  
+**Created:** 2025-10-24
 
 > 💡 **Quick Start:** Copy this repo template → Start new chat → Add `@init.md` to context → AI asks about your project → AI creates everything!
 
@@ -445,12 +445,11 @@ The AI workflow methodology (`ai-dev-tasks/` directory) is adapted from [AI Dev 
 *~credits to @snarktank !*
 
 ---
-
-**Template Version:** 1.0  
-**Last Updated:** 2025-10-25
+***>this is the end of this document<***
 
 ---
-***>this is the end of this document<***
+
+**Last Updated:** 2025-10-25
 
 ---
 **+++** **designed by** ***FORTENEMY*** **+++**

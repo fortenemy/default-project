@@ -1,7 +1,7 @@
 # 📘 Default Project Template - Developer Guide
 
-**Version:**  1.0  
-**Last Updated:**  2025-10-25
+**Version:**  1.0
+**Created:**  2025-10-24
 
 ---
 
@@ -388,6 +388,9 @@ Want to improve this template?
 **Questions?** Check README.md or init.md for quick guides.  
 **Issues?** Review the Troubleshooting section above.  
 **Ready?** Copy the template and add @init.md to your chat!
+
+---
+**Last Updated:** 2025-10-25
 
 ---
 ***>this is the end of this document<***
