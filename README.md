@@ -255,21 +255,21 @@ default-project/
 - `generate-tasks.md` - Task list generation
 - `process-task-list.md` - Task execution protocol
 
-### `tasks/` (generated)
+### `tasks/`
 
 Will contain:
 
 - `prd-[project-name].md` - Product Requirements Document
 - `tasks-prd-[project-name].md` - Task list with all implementation steps
 
-### `logi/` (generated)
+### `logi/`
 
 Will contain session logs:
 
 - `YYYY_MM_DD_log_1.md` - First session of the day
 - `YYYY_MM_DD_log_2.md` - Second session, etc.
 
-### `memory.md` (generated)
+### `memory.md`
 
 Project's extended memory containing:
 
