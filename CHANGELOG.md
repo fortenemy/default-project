@@ -100,7 +100,7 @@ and this document adheres to [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ### Based On
 
-- Bitcoin Trading Bot MVP project
+- yeah, that nasty bot again
 - 2 completed parent tasks (15 subtasks)
 - 2,500+ lines of production code
 - 2 session logs
@@ -137,7 +137,8 @@ This template is based on the methodology developed for the **Bitcoin Trading Bo
 - **Original AI Dev Tasks:** <https://github.com/snarktank/ai-dev-tasks>
 
 **Development Foundation:**
-The workflow was proven on the Bitcoin Trading Bot MVP project, which demonstrated the effectiveness of PRD-driven development with extended memory systems.
+
+The workflow was proven on the *bitcoin-trading-bot* project (don't even ask...), which demonstrated the effectiveness of PRD-driven development with extended memory systems.
 
 **Development Stats:**
 
