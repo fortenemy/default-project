@@ -2,7 +2,6 @@
 
 **Default Project** Template v1.0  
 **Created:**  2025-10-24  
-**Author:**  *fortenemy*
 
 ---
 
@@ -300,5 +299,10 @@ The AI will ask about your project and automatically create everything you need!
 ---
 
 **Template Version:**  1.0  
-**Last Updated:**  2025-10-24  
-**Author:**  *fortenemy*
+**Last Updated:**  2025-10-25  
+
+---
+***>this is the end of this document<***
+
+---
+**+++** **designed by** ***FORTENEMY*** **+++**

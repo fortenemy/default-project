@@ -566,10 +566,7 @@ cd [project-path]
 - Latest: Check highest number for today's date
 
 ---
-
-**End of Memory Document**  
-**Next Task:** [Task number and title]
+***>this is the end of this document<***
 
 ---
-
-**Designed by** ***fortenemy***
+**+++** **designed by** ***FORTENEMY*** **+++**

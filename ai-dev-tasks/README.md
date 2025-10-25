@@ -154,5 +154,3 @@ Modifications in this template:
 All files in this directory maintain compatibility with the Apache 2.0 License. See the main `LICENSE.md` file in the repository root for full license text.
 
 ---
-
-Happy AI-assisted developing!

@@ -169,7 +169,7 @@ When AI asks you about your project during initialization, think about providing
 **Remember:** The more specific and detailed your answers, the better the PRD and task breakdown will be!
 
 ---
+***>this is the end of this document<***
 
-**Example Version:** 1.0  
-**Template:** Default Project v1.0  
-**Last Updated:** 2025-10-24
+---
+**+++** **designed by** ***FORTENEMY*** **+++**

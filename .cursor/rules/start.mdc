@@ -11,3 +11,9 @@ At the beginning of each interaction with the user, start your work by reading t
 3. If memory.md doesn't exist and user added @init.md to context, follow the initialization protocol from @init.md
 4. If memory.md exists, read Table of Contents, check Task History, and identify next task
 5. Confirm readiness for further interaction with the user
+
+---
+***>this is the end of this document<***
+
+---
+**+++** **designed by** ***FORTENEMY*** **+++**
