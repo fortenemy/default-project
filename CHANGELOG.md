@@ -7,6 +7,47 @@ and this document adheres to [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ---
 
+## [1.0.2] - 2025-10-25
+
+### Added
+
+- **Remote Initialization Feature**
+  - Clone once, use everywhere - no need to copy template for each new project
+  - AI automatically detects remote invocation and creates full structure
+  - Works with Cursor commands, other IDEs, and CLI tools
+  - Significantly faster project initialization
+
+### Enhanced
+
+- **init.md**
+  - Added dual-mode support (Traditional Clone vs Remote Initialization)
+  - Step 0: Auto-detection of initialization mode
+  - Comprehensive AI instructions for automatic structure creation
+  - Detailed setup instructions for both methods
+
+- **AI Agent Intelligence**
+  - Auto-detection when init.md is invoked from external location
+  - Automatic creation of directory structure (tasks/, logi/, .cursor/rules/, ai-dev-tasks/)
+  - Automatic copying of all template files to current directory
+  - Seamless transition to standard initialization workflow
+
+### Documentation
+
+- Updated README.md with Method 2: Remote Initialization
+- Updated TEMPLATE_GUIDE.md with comprehensive Remote Initialization guide
+- Added Cursor commands setup instructions
+- Added IDE-agnostic usage examples
+
+### Benefits
+
+- ✅ No manual template copying required
+- ✅ Always use the latest template version (single source of truth)
+- ✅ Faster project setup workflow
+- ✅ More flexible and developer-friendly
+- ✅ Works across all development environments
+
+---
+
 ## [1.0.1] - 2025-10-25
 
 ### Added
@@ -111,6 +152,13 @@ and this document adheres to [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## Version History
 
+**v1.0.2** (2025-10-25)
+
+- Remote Initialization Feature - clone once, use everywhere
+- AI auto-detection and automatic structure creation
+- Cursor commands support
+- Significantly improved developer experience
+
 **v1.0.1** (2025-10-25)
 
 - GitHub repository support with 4 cloning methods
@@ -208,7 +256,7 @@ This project is licensed under the **Apache License 2.0**.
 
 **Last Updated:** 2025-10-25
 
-**Version:** 1.0.1
+**Version:** 1.0.2
 
 ---
 ***>this is the end of this document<***

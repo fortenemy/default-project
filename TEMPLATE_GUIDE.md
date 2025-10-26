@@ -1,9 +1,7 @@
 # 📘 Default Project Template - Developer Guide
 
-**Version:**  1.0.1
-
+**Version:**  1.0.2  
 **Created:**  2025-10-24  
-
 **Last Updated:**  2025-10-25
 
 ---
@@ -113,10 +111,16 @@ Project Complete!
 
 ## 🗂️ File Generation Timeline
 
-### At Project Start (Manual)
+### At Project Start (Two Methods)
 
-1. User copies Default Project → New Project
+**Method 1: Traditional Clone**
+1. User clones Default Project → New Project
 2. User adds `@init.md` to chat context
+
+**Method 2: Remote Initialization** ⭐
+1. User has template cloned once in permanent location
+2. User references `@init.md` from template location
+3. AI detects remote mode and creates structure automatically
 
 ### Phase 1: Planning (AI-Generated)
 
@@ -157,6 +161,57 @@ The `memory.md` file is the **heart of the template**. It contains:
 - **Self-Documenting:** Updates automatically via protocol
 - **Chronological History:** Complete development timeline
 - **Quick Reference:** Commands and configurations readily available
+
+---
+
+## 🚀 Remote Initialization Feature
+
+### Overview
+
+Version 1.0.2 introduces **Remote Initialization** - a powerful feature that allows you to use the template without copying it for each project.
+
+### How It Works
+
+1. **Clone Once:** Store the template in a permanent location (e.g., `~/default-project-template`)
+2. **Use Everywhere:** Reference `init.md` from any project directory
+3. **Auto-Setup:** AI automatically creates the full structure in your current directory
+
+### Benefits
+
+- ✅ No need to copy template files manually
+- ✅ Always use the latest template version
+- ✅ Faster project initialization
+- ✅ Works with Cursor commands, other IDEs, and CLI
+
+### Setup for Cursor IDE
+
+**Option 1: Add to Commands**
+```bash
+# Copy init.md to Cursor commands
+cp ~/default-project-template/init.md ~/.cursor/commands/init-project.md
+```
+
+Then use: `/init-project` in any chat
+
+**Option 2: Direct Reference**
+```
+@~/default-project-template/init.md
+```
+
+### Setup for Other IDEs
+
+Reference the init.md file path directly in your chat:
+```
+@/path/to/default-project-template/init.md
+```
+
+### AI Behavior
+
+When init.md is invoked remotely:
+1. AI detects template files are not present
+2. AI creates directory structure (`tasks/`, `logi/`, `.cursor/rules/`, `ai-dev-tasks/`)
+3. AI copies all template files to current directory
+4. AI proceeds with standard initialization
 
 ---
 
@@ -364,6 +419,19 @@ Want to improve this template?
 ---
 
 ## 📝 Version History
+
+### v1.0.2 (2025-10-25)
+
+**Remote Initialization Feature:**
+- Clone once, use everywhere - no need to copy template for each project
+- AI automatically creates full structure when invoked remotely
+- Cursor commands support for instant initialization
+- Works with all IDEs and CLI tools
+
+**AI Enhancements:**
+- Auto-detection of initialization mode (traditional vs remote)
+- Automatic template structure creation in target directory
+- Streamlined workflow for faster project setup
 
 ### v1.0.1 (2025-10-25)
 

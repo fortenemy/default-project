@@ -9,6 +9,7 @@ tasks/*.md
 !tasks/.gitkeep
 logi/*.md
 !logi/.gitkeep
+prompts/*.md
 
 # =============================================================================
 # Environment and Secrets

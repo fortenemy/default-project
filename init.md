@@ -1,6 +1,6 @@
 # 🚀 Project Initialization Guide
 
-**Default Project** Template v1.0  
+**Default Project** Template v1.0.2  
 **Created:**  2025-10-24  
 
 ---
@@ -14,6 +14,44 @@ This is a **universal project template** that helps you start any new project us
 - ✅ Extended memory system for context preservation
 - ✅ Session logging for full traceability
 - ✅ Self-documenting and self-updating
+
+---
+
+## 🎯 Two Ways to Use This Template
+
+### 🔷 Method 1: Traditional Clone (Copy Entire Template)
+
+Clone the template into a new project directory:
+
+```bash
+git clone https://github.com/fortenemy/default-project.git YourProjectName
+cd YourProjectName
+```
+
+Then add `@init.md` to your chat and say "Initialize this project"
+
+### 🔷 Method 2: Remote Initialization (Recommended ⭐)
+
+**Clone once, use everywhere!**
+
+1. **Clone the template repository ONCE** to a permanent location:
+
+```bash
+git clone https://github.com/fortenemy/default-project.git ~/default-project-template
+```
+
+2. **From ANY project directory**, reference this init.md file:
+   - **Cursor:** Add to commands: `~/default-project-template/init.md`
+   - **Other IDEs:** Add `@~/default-project-template/init.md` to chat
+   - **CLI:** Reference the file path directly
+
+3. **Say:** "Initialize this project using default-project structure"
+
+The AI will automatically:
+
+- Create the full default-project structure in your current directory
+- Copy all necessary template files
+- Initialize the project following the standard workflow
 
 ---
 
@@ -135,7 +173,68 @@ This template includes:
 
 When an AI agent reads this file, **automatically initiate the project initialization workflow:**
 
-### Initialization Protocol
+### 🔍 Step 0: Detect Initialization Mode
+
+**First, check the current directory structure:**
+
+1. **If template files exist** (memory-template.md, ai-dev-tasks/, etc.) in current directory:
+   - This is **Method 1: Traditional Clone**
+   - Proceed with standard initialization (Step 1 below)
+
+2. **If template files DON'T exist** in current directory:
+   - This is **Method 2: Remote Initialization**
+   - User is invoking init.md from external location
+   - **MUST create the default-project structure first!**
+
+### 🚀 Remote Initialization Setup (Method 2)
+
+**When template files are NOT present in current directory:**
+
+**STEP A: Inform User**
+
+```
+"I notice you're using remote initialization. I'll create the default-project structure in your current directory."
+```
+
+**STEP B: Create Directory Structure**
+Create the following directories:
+
+- `tasks/` (with .gitkeep)
+- `logi/` (with .gitkeep)
+- `.cursor/rules/`
+- `ai-dev-tasks/`
+
+**STEP C: Create Core Template Files**
+You must create these files in the current directory:
+
+1. `memory-template.md` - Copy from the template repository
+2. `project-example.md` - Copy from the template repository
+3. `.cursor/rules/start.mdc` - Copy from the template repository
+4. `.gitignore` - Copy from the template repository
+
+**STEP D: Create AI Workflow Files** in `ai-dev-tasks/`:
+
+1. `create-prd.md` - Copy from template
+2. `generate-tasks.md` - Copy from template
+3. `process-task-list.md` - Copy from template
+4. `README.md` - Copy from template
+
+**STEP E: Confirm Setup Complete**
+
+```
+"✅ Default-project structure created successfully!
+   - Core files: ready
+   - Workflow files: ready
+   - Directory structure: ready
+   
+Now let's initialize your project. What would you like to build?"
+```
+
+Then proceed with **Standard Initialization Protocol** below.
+
+---
+
+### 📋 Standard Initialization Protocol (Method 1 & 2)
 
 **You (AI Agent) must guide the user through project initialization by following these steps:**
 
